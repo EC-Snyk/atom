@@ -55,3 +55,18 @@ patch:
         patched: '2019-07-24T15:56:14.367Z'
     - atom-package-manager > npm > npm-lifecycle > node-gyp > request > hawk > hoek:
         patched: '2019-07-24T15:56:14.367Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - atom-package-manager > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
+    - atom-package-manager > npm > npm-profile > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
+    - atom-package-manager > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
+    - atom-package-manager > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
+    - atom-package-manager > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T04:40:22.966Z'
