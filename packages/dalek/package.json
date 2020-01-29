@@ -11,12 +11,13 @@
     "atom": ">=1.12.7 <2.0.0"
   },
   "dependencies": {
-    "grim": "^2.0.1"
+    "grim": "^2.0.1",
+    "snyk": "^1.286.1"
   },
   "devDependencies": {
     "atom-mocha-test-runner": "^1.0.0",
     "sinon": "^2.0.0",
-    "standard": "^8.6.0"
+    "standard": "^11.0.0"
   },
   "standard": {
     "env": {
@@ -25,5 +26,10 @@
     "globals": [
       "atom"
     ]
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
