@@ -5,7 +5,9 @@
   "description": "Jump to a specific editor line number with `ctrl-g`.",
   "license": "MIT",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "activationCommands": {
     "atom-text-editor": [
@@ -27,5 +29,9 @@
     "ignore": [
       "spec/fixtures"
     ]
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }
