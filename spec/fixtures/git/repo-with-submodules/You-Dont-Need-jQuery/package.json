@@ -12,7 +12,7 @@
   "devDependencies": {
     "babel-cli": "^6.2.0",
     "babel-core": "^6.1.21",
-    "babel-eslint": "^4.1.5",
+    "babel-eslint": "^5.0.0",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-stage-0": "^6.1.18",
@@ -23,14 +23,14 @@
     "isparta": "^4.0.0",
     "istanbul-instrumenter-loader": "^0.1.3",
     "jquery": "^2.1.4",
-    "karma": "^0.13.15",
+    "karma": "^5.0.8",
     "karma-coverage": "^0.5.3",
     "karma-firefox-launcher": "^0.1.7",
     "karma-mocha": "^0.2.1",
     "karma-sourcemap-loader": "^0.3.6",
     "karma-webpack": "^1.7.0",
-    "mocha": "^2.3.4",
-    "webpack": "^1.12.9"
+    "mocha": "^3.0.0",
+    "webpack": "^2.2.0"
   },
   "repository": {
     "type": "git",
