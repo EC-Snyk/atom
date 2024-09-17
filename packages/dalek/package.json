@@ -11,7 +11,8 @@
     "atom": ">=1.12.7 <2.0.0"
   },
   "dependencies": {
-    "grim": "^2.0.1"
+    "grim": "^2.0.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "atom-mocha-test-runner": "^1.0.0",
@@ -25,5 +26,10 @@
     "globals": [
       "atom"
     ]
-  }
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }

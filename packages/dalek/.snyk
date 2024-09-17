@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - atom-mocha-test-runner > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T02:24:26.301Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          atom-mocha-test-runner > less > request > hawk > cryptiles > boom >
+          hoek
