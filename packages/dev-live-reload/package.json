@@ -6,7 +6,8 @@
   "repository": "https://github.com/atom/atom",
   "license": "MIT",
   "dependencies": {
-    "fs-plus": "^3.0.0"
+    "fs-plus": "^3.0.0",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "atom": "*"
@@ -24,5 +25,10 @@
     "globals": [
       "atom"
     ]
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
