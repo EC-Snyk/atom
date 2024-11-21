@@ -11,7 +11,8 @@
   "dependencies": {
     "atom-select-list": "^0.7.0",
     "fs-plus": "^3.0.0",
-    "temp": "~0.8.1"
+    "temp": "~0.8.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "standard": "^11.0.0"
@@ -42,5 +43,10 @@
       "default": true,
       "description": "Wraps around to the first/last diff in the file when moving to next/previous diff."
     }
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
